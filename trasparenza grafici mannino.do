@@ -1,5 +1,6 @@
 
-1) clear
+GRAFICO 1) 
+clear
 set more off
 
 * Dati (dal grafico)
@@ -35,7 +36,8 @@ twoway ///
  graphregion(color(white)) ///
  plotregion(margin(medium))
 
-2) clear
+GRAFICO 2) 
+clear
 set more off
 
 * Dati (quote % dal grafico)
@@ -69,7 +71,8 @@ graph pie percentuale, over(categoria) ///
  graphregion(color(white))
 
  
-3)	clear
+GRAFICO 3)	
+clear
 input year boeing lockheed northrop
 1960 1.3 1.0 0.4
 1970 4.7 2.5 0.8
@@ -88,7 +91,8 @@ legend(order(1 "Boeing" 2 "Lockheed" 3 "Northrop")) ///
 xlabel(1960 1970 1980 1990)
 
 
-4) clear
+GRAFICO 4) 
+clear
 input str25 company start end
 "Boeing" 1.3 4.5
 "North American Aviation" 1.5 3.0
@@ -100,7 +104,8 @@ end
 * Creo variabile per stacking (incremento)
 gen crescita = end - start
 
-5) clear
+GRAFICO 5) 
+clear
 set more off
 
 * Dati dal grafico
